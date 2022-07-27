@@ -1,0 +1,36 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background: #f3f3f3;
+    font-family: 'Cairo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 70px;
+    padding: 0 ;
+    background-color: rgba(77, 150, 245, 0.685);
+}
+
+.item {
+    position: static;
+    display: block;
+    padding : 0;
+    margin: 0;
+    width: 10%;
+}
+
+.item img {
+    width: 90%;
+    
+}
